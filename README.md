@@ -19,10 +19,11 @@ Mike Gloekler and Annie Martz
 - library(lists) – Used for list operations such as finding elements, appending lists, and reversing lists. This is included with SWI-Prolog.
 
 **Instructions for compiling and running the program**
-1. Make sure SWI-Prolog is installed and functional by entering "swipl --version" in the terminal, which should return the version of Prolog downloaded (in this case, "SWI-Prolog version 11.0.0 for x64-win64").
-2. Next, enter "swipl -s main.pl -g main -t halt" into the terminal.
-3. Then, you will be prompted to enter the start and ending computer, ranging from a to f.
-4. Once the start and end are entered, the program will calculate the path length, nodes explored, time, and cost of each search algorithm.
+1. Make sure swipl.exe is in the Windows Path. Do this by hitting "Windows + R," then enter "sysdm.cpl" then the "Advanced" tab, then select the "Environment Variables" button, then double-click "Path" under the "User Variables" section, then select "New," then "Browse," then select the "bin" folder inside the "swipl" folder. After that is done, select "OK" until the system properties tab is gone. 
+2. Make sure SWI-Prolog is installed and functional by entering "swipl --version" in the terminal, which should return the version of Prolog downloaded (in this case, "SWI-Prolog version 11.0.0 for x64-win64").
+3. Next, enter "swipl -s main.pl -g main -t halt" into the terminal.
+4. Then, you will be prompted to enter the start and ending computer, ranging from a to f.
+5. Once the start and end are entered, the program will calculate the path length, nodes explored, time, and cost of each search algorithm.
 
 **Implemented features**
 - Breadth-First Search: explores a network by using a queue to find a path from start to finish
